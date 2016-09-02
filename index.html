@@ -1,40 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>百度地图定位API</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Wc8NvYINNo4yhanjlPg5CnE2V1UpKv8z"></script>
+	<meta charset="utf-8">
+	<title>Ricochet</title>
+	<style type="text/css">
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		.continer {
+			width: 408px;
+			height: 
+			margin: 0 auto;
+		}
+	</style>
 </head>
-<style>
-    html,body{
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-    }
-    #allmap {
-        width: 100%;
-        height:100%;
-    }
-</style>
 <body>
+	<div class="continer">
+		<canvas id="myCanvas" width="408" height="250">
+		不支持canvas标签
+	</canvas>
+	</div>
 
-<div id="allmap"></div>
-
-<script type="text/javascript">
-    // 百度地图API功能
-    var map = new BMap.Map("allmap");
-    var point = new BMap.Point(116.331398,39.897445);
-    map.centerAndZoom(point,12);
-
-    function myFun(result){
-        var cityName = result.name;
-        map.setCenter(cityName);
-        alert("当前定位城市:"+cityName);
-    }
-    var myCity = new BMap.LocalCity();
-    myCity.get(myFun);
-</script>
+	<script type="text/javascript" src="js/game.js"></script>
 </body>
 </html>
