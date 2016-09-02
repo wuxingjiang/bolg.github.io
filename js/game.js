@@ -134,7 +134,7 @@
 
             this.ready = false;
             this.img = new Image();
-            this.img.src = 'html5-ia-master/ch6/background.jpg';
+            this.img.src = 'images/background.jpg';
 
             this.img.onload = function() {
                 Background.ready = true;
