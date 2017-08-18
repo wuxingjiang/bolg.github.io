@@ -1,0 +1,87 @@
+---
+layout: post
+title:  "test"
+date:   2017-08-16 11:33:35 +0800
+categories: jekyll update
+---
+
+A First Level Header
+====================
+
+A Second Level Header
+---------------------
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+
+> this is a blockquote
+
+强调斜体
+=======
+> 2017 *年* 12
+
+> 2017 _年_ 12
+
+强调加粗斜体
+===========
+
+> 2017 **年** 12月
+
+> 2017 __年__ 12月
+
+无序列表
+========
+* 第一
+
+  小明你好
+* 第二
++ 第三
++ 第四
+- 第五
+- 第六
+
+有序列表
+=======
+1. 第一
+2. 第二
+3. 第三
+
+链接
+====
+
+* 内联
+
+  this is an [baidu](http://www.baidu.com).
+
+  + 参考样式链接可以让您通过您在文档中其他位置定义的名称来引用您的链接：
+
+    I get 10 times more traffic from [Google][1] than from[Yahoo][2] or [MSN][3].
+
+图片
+====
+
+* 内联
+
+  ![alt text](https://img10.360buyimg.com/n2/jfs/t6016/225/9230262307/301975/219295ce/59911e53N3cab7547.jpg "title")
+
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
+
+代码块
+====
+
+小明你在干嘛`<blink>`
+
+小明你在干嘛`&mdash`
+
+小明你在干嘛`&#5212`
+   
+* 代码段
+
+      <div>
+          <p>小明你在干嘛'&nbsp;'</p>
+      </div>
